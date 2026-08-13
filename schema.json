@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:vnish-global:proof-protocol:schema:1.0.0",
+  "title": "VNISH GLOBAL Proof Protocol dataset",
+  "type": "object",
+  "required": ["schema_version", "dataset_name", "dataset_version", "license", "record_count", "records"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "dataset_name": {"const": "VNISH GLOBAL Proof Protocol"},
+    "dataset_version": {"type": "string", "format": "date"},
+    "license": {"const": "ODC-By-1.0"},
+    "record_count": {"type": "integer", "minimum": 0},
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["entity", "owned_domain", "site_role", "release", "release_date", "model", "submodel", "board_family", "install_method", "sanitized_filename", "public_owned_url", "sha256", "byte_size", "release_state", "observed_at", "provenance_boundary", "limitations"],
+        "properties": {
+          "entity": {"const": "VNISH GLOBAL"},
+          "owned_domain": {"const": "vnish.global"},
+          "site_role": {"const": "canonical integrity data"},
+          "release": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"},
+          "release_date": {"type": ["string", "null"], "format": "date"},
+          "model": {"type": "string", "minLength": 1},
+          "submodel": {"type": ["string", "null"]},
+          "board_family": {"enum": ["aml", "bb", "cv", "xil"]},
+          "install_method": {"const": "nand"},
+          "sanitized_filename": {"type": "string", "pattern": "^[a-z0-9.-]+\\.tar\\.gz$"},
+          "public_owned_url": {"type": "string", "pattern": "^https://vnish\\.global/"},
+          "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+          "byte_size": {"type": "integer", "minimum": 1},
+          "release_state": {"enum": ["current", "historical"]},
+          "observed_at": {"type": "string", "format": "date"},
+          "provenance_boundary": {"type": "string", "minLength": 1},
+          "limitations": {"type": "string", "minLength": 1}
+        }
+      }
+    }
+  }
+}

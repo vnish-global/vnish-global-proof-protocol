@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vnish-verify"
+version = "0.1.0"
+description = "Offline-first SHA-256 and byte-size verification against VNISH GLOBAL manifest records"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "Apache-2.0" }
+authors = [{ name = "VNISH GLOBAL" }]
+keywords = ["firmware", "sha256", "integrity", "manifest", "verification"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: System :: Systems Administration",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://vnish.global/data/"
+Data = "https://vnish.global/data/"
+Documentation = "https://vnish-global.github.io/vnish-global-proof-protocol/"
+Issues = "https://github.com/vnish-global/vnish-global-proof-protocol/issues"
+Source = "https://github.com/vnish-global/vnish-global-proof-protocol"
+
+[project.scripts]
+vnish-verify = "vnish_verify.cli:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+vnish_verify = ["data/*.json"]

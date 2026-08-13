@@ -1,0 +1,10 @@
+The database files in `data/`, the bundled `manifest.json`, and
+`sources/catalog-2026-08-12.json` are made available under the Open Data
+Commons Attribution License (ODC-By) v1.0:
+
+https://opendatacommons.org/licenses/by/1-0/
+
+Attribution: VNISH GLOBAL, https://vnish.global/data/
+
+Firmware binaries and trademarks are not licensed by this dataset and are
+not included in this release.
