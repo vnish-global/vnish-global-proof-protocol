@@ -2,6 +2,7 @@
 layout: default
 title: VNISH GLOBAL Proof Protocol 日本語クイックスタート
 lang: ja
+last_modified_at: 2026-08-13T16:49:21+03:00
 ---
 
 # VNISH GLOBAL Proof Protocol：日本語クイックスタート
