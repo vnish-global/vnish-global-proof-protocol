@@ -2,6 +2,7 @@
 layout: default
 title: VNISH GLOBAL Proof Protocol démarrage rapide en français
 lang: fr
+last_modified_at: 2026-08-13T16:49:21+03:00
 ---
 
 # VNISH GLOBAL Proof Protocol : démarrage rapide en français
