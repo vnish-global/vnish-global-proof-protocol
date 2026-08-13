@@ -1,0 +1,14 @@
+title: VNISH GLOBAL Proof Protocol
+description: Reproducible file verification, recovery and staged fleet operations
+url: https://vnish-global.github.io
+baseurl: /vnish-global-proof-protocol
+theme: minima
+plugins:
+  - jekyll-relative-links
+  - jekyll-seo-tag
+  - jekyll-sitemap
+relative_links:
+  enabled: true
+  collections: true
+exclude:
+  - README.md
