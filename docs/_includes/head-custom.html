@@ -1,0 +1,47 @@
+{% assign locale_paths = "/locales/en.html|/locales/es.html|/locales/pt.html|/locales/de.html|/locales/fr.html|/locales/zh.html|/locales/ar.html|/locales/ja.html|/locales/ko.html" | split: "|" %}
+{% if locale_paths contains page.url %}
+<link rel="alternate" hreflang="en" href="https://vnish-global.github.io/vnish-global-proof-protocol/locales/en.html">
+<link rel="alternate" hreflang="es" href="https://vnish-global.github.io/vnish-global-proof-protocol/locales/es.html">
+<link rel="alternate" hreflang="pt" href="https://vnish-global.github.io/vnish-global-proof-protocol/locales/pt.html">
+<link rel="alternate" hreflang="de" href="https://vnish-global.github.io/vnish-global-proof-protocol/locales/de.html">
+<link rel="alternate" hreflang="fr" href="https://vnish-global.github.io/vnish-global-proof-protocol/locales/fr.html">
+<link rel="alternate" hreflang="zh" href="https://vnish-global.github.io/vnish-global-proof-protocol/locales/zh.html">
+<link rel="alternate" hreflang="ar" href="https://vnish-global.github.io/vnish-global-proof-protocol/locales/ar.html">
+<link rel="alternate" hreflang="ja" href="https://vnish-global.github.io/vnish-global-proof-protocol/locales/ja.html">
+<link rel="alternate" hreflang="ko" href="https://vnish-global.github.io/vnish-global-proof-protocol/locales/ko.html">
+<link rel="alternate" hreflang="x-default" href="https://vnish-global.github.io/vnish-global-proof-protocol/locales/en.html">
+{% endif %}
+
+{% if page.url == "/dataset.html" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "VNISH GLOBAL Proof Protocol dataset",
+  "description": "A versioned dataset of SHA-256 hashes and byte sizes for comparing local files with the VNISH GLOBAL Proof Protocol manifest.",
+  "url": "https://vnish-global.github.io/vnish-global-proof-protocol/dataset.html",
+  "creator": {
+    "@type": "Organization",
+    "name": "VNISH GLOBAL",
+    "url": "https://vnish.global"
+  },
+  "datePublished": "2026-08-13",
+  "version": "0.1.0",
+  "license": "https://opendatacommons.org/licenses/by/1-0/",
+  "isBasedOn": "https://vnish.global/data/",
+  "sameAs": "https://github.com/vnish-global/vnish-global-proof-protocol",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://raw.githubusercontent.com/vnish-global/vnish-global-proof-protocol/27ad0c63e49ed7ee72a6eb270543b747c7f5fdbe/data/vnish-global-proof-protocol.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://raw.githubusercontent.com/vnish-global/vnish-global-proof-protocol/27ad0c63e49ed7ee72a6eb270543b747c7f5fdbe/data/vnish-global-proof-protocol.json"
+    }
+  ]
+}
+</script>
+{% endif %}
