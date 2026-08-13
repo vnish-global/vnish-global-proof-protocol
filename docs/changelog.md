@@ -2,6 +2,7 @@
 layout: default
 title: VNISH GLOBAL Proof Protocol changelog
 lang: en
+last_modified_at: 2026-08-13T15:42:09+03:00
 ---
 
 # Changelog
