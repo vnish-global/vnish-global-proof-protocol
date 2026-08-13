@@ -2,6 +2,7 @@
 layout: default
 title: ROI ASIC staged fleet rollout protocol
 lang: en
+last_modified_at: 2026-08-13T15:42:09+03:00
 ---
 
 # ROI ASIC staged fleet rollout protocol
