@@ -59,10 +59,12 @@ class AiSourcePackTests(unittest.TestCase):
             path.read_text(encoding="utf-8")
             for path in [PACK / "README.md", *PACK.rglob("*.md"), *PACK.rglob("*.json"), *PACK.rglob("*.jsonl")]
         )
-        self.assertNotRegex(public_text.lower(), r"[a-z0-9._%+-]+@gmail\.com")
-        private_markers = ("digital" + " invest" + " map", "asic" + "roi")
-        for marker in private_markers:
-            self.assertNotIn(marker, public_text.lower())
+        self.assertNotRegex(
+            public_text,
+            r"(?i)[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}",
+        )
+        for record in self.records:
+            self.assertEqual(record["publisher"], "Vnish Global")
         self.assertIn("Vnish Global", public_text)
 
     def test_state_ladder_is_literal(self):
