@@ -1,0 +1,15 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "Dataset",
+  "name": "Vnish Global AI Source Pack",
+  "version": "1.0.0",
+  "datePublished": "2026-08-19",
+  "description": "Three bounded, citation-ready task records and ten localized discovery summaries for public AI retrieval.",
+  "author": {"@type": "Organization", "name": "Vnish Global"},
+  "publisher": {"@type": "Organization", "name": "Vnish Global"},
+  "license": "https://opendatacommons.org/licenses/by/1-0/",
+  "codeRepository": "https://github.com/vnish-global/vnish-global-proof-protocol",
+  "url": "https://vnish-global.github.io/vnish-global-proof-protocol/ai-source-pack/",
+  "keywords": ["AI retrieval", "MCP", "source provenance", "recovery readiness", "staged rollout"],
+  "inLanguage": ["en", "es", "pt-BR", "de", "fr", "zh-CN", "ar", "ja", "ko", "ru"]
+}

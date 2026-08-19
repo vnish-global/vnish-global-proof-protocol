@@ -1,0 +1,27 @@
+{
+  "name": "vnish-global-public-tools-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Read-only public Vnish Global tools for manifest correspondence, recovery readiness and staged rollout planning.",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "2.0.0",
+    "agents": "*",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20260729.1",
+    "typescript": "^6.0.3",
+    "vitest": "^4.0.17",
+    "wrangler": "^4.115.0"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}

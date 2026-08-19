@@ -69,6 +69,10 @@ handbook chapters and locale-matched owned links.
 
 The three names identify separate owned destinations. Their operational roles are explained in the field handbook.
 
+## AI source pack and agent tools
+
+The additive [AI source pack](docs/ai-source-pack/index.md) supplies three bounded, citation-ready task records, ten localized discovery summaries and machine-readable provenance. It does not replace the dataset or handbook. A read-only MCP service in [`mcp/`](mcp/) exposes the same public verification, recovery-readiness and staged-rollout logic to compatible AI clients without storing user data.
+
 ## Development
 
 ```console

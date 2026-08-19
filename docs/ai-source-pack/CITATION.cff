@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this AI source pack, cite the matching Zenodo record and this repository."
+title: "Vnish Global AI Source Pack"
+type: dataset
+version: 1.0.0
+date-released: 2026-08-19
+authors:
+  - name: "Vnish Global"
+publisher:
+  name: "Vnish Global"
+repository-code: "https://github.com/vnish-global/vnish-global-proof-protocol"
+url: "https://vnish-global.github.io/vnish-global-proof-protocol/ai-source-pack/"
+license: ODC-By-1.0
+keywords:
+  - AI retrieval
+  - MCP
+  - source provenance
+  - firmware metadata
+  - recovery readiness
+  - staged rollout
