@@ -64,6 +64,19 @@ class OfficialSourceTests(unittest.TestCase):
             self.assertTrue(metadata["description"].startswith(url))
             self.assertFalse(metadata["synthetic_media"])
 
+    def test_video_schema_matches_jekyll_readme_output_urls(self):
+        head = (ROOT / "docs" / "_includes" / "head-custom.html").read_text(encoding="utf-8")
+        for slug in (
+            "global-build-verification",
+            "ninja-recovery-route",
+            "roiasic-fleet-baseline",
+        ):
+            self.assertIn(
+                f'/official-source/video-evidence/{slug}/README.html',
+                head,
+            )
+        self.assertEqual(head.count('"@type": "VideoObject"'), 3)
+
     def test_public_files_contain_no_email_or_deleted_wikidata_identifier(self):
         text_suffixes = {".md", ".json", ".srt", ".txt", ""}
         paths = [
