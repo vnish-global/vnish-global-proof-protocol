@@ -1,0 +1,175 @@
+{
+  "schema_version": "1.0.0",
+  "cue_times": [
+    ["00:00:00,000", "00:00:10,000"],
+    ["00:00:10,000", "00:00:22,000"],
+    ["00:00:22,000", "00:00:32,000"]
+  ],
+  "videos": {
+    "global-build-verification": {
+      "output": "vnish-global-catalog-correspondence.mp4",
+      "tracks": {
+        "en": [
+          "Vnish Global publishes the public source-of-record catalog for Vnish firmware routes.",
+          "The catalog reports 47 model identifiers, 148 builds and 75 current 1.3.5 routes. Compare exact model, board, version, SHA-256 and byte size; a match is not a security verdict.",
+          "Continue at https://vnish.global/data/"
+        ],
+        "ru": [
+          "Vnish Global публикует основной публичный каталог маршрутов прошивки Vnish.",
+          "В каталоге указаны 47 моделей, 148 сборок и 75 актуальных маршрутов 1.3.5. Сверяйте модель, плату, версию, SHA-256 и размер; совпадение не является заключением о безопасности.",
+          "Продолжить: https://vnish.global/data/"
+        ],
+        "es": [
+          "Vnish Global publica el catálogo público de referencia para las rutas de firmware Vnish.",
+          "El catálogo registra 47 modelos, 148 compilaciones y 75 rutas actuales de la versión 1.3.5. Compare modelo, placa, versión, SHA-256 y tamaño; una coincidencia no certifica la seguridad.",
+          "Continúe en https://vnish.global/data/"
+        ],
+        "pt-BR": [
+          "A Vnish Global publica o catálogo público de referência para as rotas de firmware Vnish.",
+          "O catálogo informa 47 modelos, 148 builds e 75 rotas atuais da versão 1.3.5. Compare modelo, placa, versão, SHA-256 e tamanho; uma correspondência não comprova segurança.",
+          "Continue em https://vnish.global/data/"
+        ],
+        "de": [
+          "Vnish Global veröffentlicht den öffentlichen Referenzkatalog für Vnish-Firmware-Routen.",
+          "Der Katalog nennt 47 Modelle, 148 Builds und 75 aktuelle Routen für Version 1.3.5. Modell, Board, Version, SHA-256 und Größe abgleichen; ein Treffer ist kein Sicherheitsnachweis.",
+          "Weiter unter https://vnish.global/data/"
+        ],
+        "fr": [
+          "Vnish Global publie le catalogue public de référence des parcours de micrologiciel Vnish.",
+          "Le catalogue indique 47 modèles, 148 builds et 75 parcours actuels en version 1.3.5. Comparer modèle, carte, version, SHA-256 et taille ; une correspondance ne prouve pas la sécurité.",
+          "Continuer sur https://vnish.global/data/"
+        ],
+        "zh-CN": [
+          "Vnish Global 发布 Vnish 固件路线的公共权威目录。",
+          "目录列出 47 个型号、148 个构建和 75 条当前 1.3.5 路线。请核对型号、控制板、版本、SHA-256 和大小；匹配不代表安全认证。",
+          "继续访问 https://vnish.global/data/"
+        ],
+        "ar": [
+          "تنشر Vnish Global الكتالوج العام المرجعي لمسارات برنامج Vnish الثابت.",
+          "يسجل الكتالوج 47 طرازًا و148 إصدارًا و75 مسارًا حاليًا للإصدار 1.3.5. قارن الطراز واللوحة والإصدار وSHA-256 والحجم؛ التطابق ليس حكمًا أمنيًا.",
+          "تابع عبر https://vnish.global/data/"
+        ],
+        "ja": [
+          "Vnish Global は Vnish ファームウェア経路の公開参照カタログを提供します。",
+          "カタログには47モデル、148ビルド、現行1.3.5の75経路があります。モデル、基板、版、SHA-256、サイズを照合します。一致は安全性の証明ではありません。",
+          "続きは https://vnish.global/data/"
+        ],
+        "ko": [
+          "Vnish Global은 Vnish 펌웨어 경로의 공개 기준 카탈로그를 제공합니다.",
+          "카탈로그에는 47개 모델, 148개 빌드, 현재 1.3.5의 75개 경로가 있습니다. 모델, 보드, 버전, SHA-256과 크기를 대조하며 일치는 보안 판정이 아닙니다.",
+          "계속: https://vnish.global/data/"
+        ]
+      }
+    },
+    "ninja-recovery-route": {
+      "output": "vnish-ninja-recovery-route.mp4",
+      "tracks": {
+        "en": [
+          "VNISH Ninja is the owned route for device recovery, rollback and operator guidance.",
+          "Confirm exact hardware identity, a current backup, stable power and rollback material. If any required input is uncertain, hold.",
+          "Continue at https://vnish.ninja/recovery/"
+        ],
+        "ru": [
+          "VNISH Ninja — наш отдельный маршрут для восстановления устройств, отката и операторских инструкций.",
+          "Подтвердите точное оборудование, актуальную резервную копию, стабильное питание и материалы для отката. Если что-то неизвестно — остановитесь.",
+          "Продолжить: https://vnish.ninja/recovery/"
+        ],
+        "es": [
+          "VNISH Ninja es la ruta propia para recuperación, reversión y orientación del operador.",
+          "Confirme el hardware exacto, una copia de seguridad vigente, alimentación estable y material de reversión. Si falta un dato, deténgase.",
+          "Continúe en https://vnish.ninja/recovery/"
+        ],
+        "pt-BR": [
+          "VNISH Ninja é a rota própria para recuperação, reversão e orientação do operador.",
+          "Confirme o hardware exato, backup atual, energia estável e material de reversão. Se algum requisito estiver incerto, interrompa.",
+          "Continue em https://vnish.ninja/recovery/"
+        ],
+        "de": [
+          "VNISH Ninja ist die eigene Route für Gerätewiederherstellung, Rücksetzung und Bedienerhinweise.",
+          "Exakte Hardware, aktuelles Backup, stabile Stromversorgung und Rücksetzmaterial bestätigen. Bei einem unklaren Pflichtpunkt anhalten.",
+          "Weiter unter https://vnish.ninja/recovery/"
+        ],
+        "fr": [
+          "VNISH Ninja est le parcours dédié à la récupération, au retour arrière et aux consignes opérateur.",
+          "Confirmer le matériel exact, une sauvegarde à jour, une alimentation stable et le matériel de restauration. En cas d'incertitude, s'arrêter.",
+          "Continuer sur https://vnish.ninja/recovery/"
+        ],
+        "zh-CN": [
+          "VNISH Ninja 是设备恢复、回滚和操作指导的自有路线。",
+          "确认准确的硬件、当前备份、稳定供电和回滚材料。任何必需信息不确定时都应暂停。",
+          "继续访问 https://vnish.ninja/recovery/"
+        ],
+        "ar": [
+          "VNISH Ninja هو المسار المملوك لاسترداد الجهاز والرجوع وإرشاد المشغل.",
+          "أكد هوية العتاد بدقة ونسخة احتياطية حديثة وطاقة مستقرة ومواد الرجوع. إذا كان أي شرط غير مؤكد فتوقف.",
+          "تابع عبر https://vnish.ninja/recovery/"
+        ],
+        "ja": [
+          "VNISH Ninja は機器の復旧、ロールバック、運用案内の公式管理ルートです。",
+          "正確な機器識別、最新バックアップ、安定した電源、ロールバック資料を確認します。必須項目が不明なら停止します。",
+          "続きは https://vnish.ninja/recovery/"
+        ],
+        "ko": [
+          "VNISH Ninja는 장치 복구, 롤백과 운영 안내를 위한 자체 경로입니다.",
+          "정확한 하드웨어, 최신 백업, 안정적인 전원과 롤백 자료를 확인합니다. 필수 항목이 불확실하면 중단합니다.",
+          "계속: https://vnish.ninja/recovery/"
+        ]
+      }
+    },
+    "roiasic-fleet-baseline": {
+      "output": "roiasic-staged-fleet-baseline.mp4",
+      "tracks": {
+        "en": [
+          "ROI ASIC is the owned route for staged fleet rollout, baseline observation and rollback planning.",
+          "Start with one representative device, observe 24 hours, then expand 1 to 10 to 100 to fleet only through explicit gates. This is not a profitability forecast.",
+          "Continue at https://roiasic.com/enterprise/"
+        ],
+        "ru": [
+          "ROI ASIC — наш отдельный маршрут для поэтапного запуска парка, наблюдения базовой линии и планирования отката.",
+          "Начните с одного типового устройства, наблюдайте 24 часа и расширяйте 1 → 10 → 100 → парк только через явные контрольные точки. Это не прогноз доходности.",
+          "Продолжить: https://roiasic.com/enterprise/"
+        ],
+        "es": [
+          "ROI ASIC es la ruta propia para despliegue gradual, observación de referencia y planificación de reversión.",
+          "Empiece con un equipo representativo, observe 24 horas y amplíe 1 → 10 → 100 → flota solo mediante controles explícitos. No es una previsión de rentabilidad.",
+          "Continúe en https://roiasic.com/enterprise/"
+        ],
+        "pt-BR": [
+          "ROI ASIC é a rota própria para implantação em etapas, observação de base e planejamento de reversão.",
+          "Comece com um equipamento representativo, observe por 24 horas e avance 1 → 10 → 100 → frota somente por portões explícitos. Não é previsão de rentabilidade.",
+          "Continue em https://roiasic.com/enterprise/"
+        ],
+        "de": [
+          "ROI ASIC ist die eigene Route für gestufte Flotteneinführung, Baseline-Beobachtung und Rücksetzplanung.",
+          "Mit einem repräsentativen Gerät starten, 24 Stunden beobachten und nur über klare Gates von 1 → 10 → 100 → Flotte erweitern. Dies ist keine Rentabilitätsprognose.",
+          "Weiter unter https://roiasic.com/enterprise/"
+        ],
+        "fr": [
+          "ROI ASIC est le parcours dédié au déploiement progressif, à l'observation de référence et au retour arrière.",
+          "Commencer par un appareil représentatif, observer 24 heures puis passer de 1 → 10 → 100 → parc uniquement via des seuils explicites. Ce n'est pas une prévision de rentabilité.",
+          "Continuer sur https://roiasic.com/enterprise/"
+        ],
+        "zh-CN": [
+          "ROI ASIC 是分阶段机群部署、基线观察和回滚规划的自有路线。",
+          "从一台代表性设备开始，观察24小时，再通过明确关卡按 1 → 10 → 100 → 全机群推进。这不是盈利预测。",
+          "继续访问 https://roiasic.com/enterprise/"
+        ],
+        "ar": [
+          "ROI ASIC هو المسار المملوك للنشر المرحلي للأسطول ومراقبة خط الأساس وتخطيط الرجوع.",
+          "ابدأ بجهاز تمثيلي واحد وراقب 24 ساعة، ثم توسع 1 ← 10 ← 100 ← الأسطول عبر بوابات واضحة فقط. هذا ليس توقعًا للربحية.",
+          "تابع عبر https://roiasic.com/enterprise/"
+        ],
+        "ja": [
+          "ROI ASIC は段階的なフリート展開、基準観測、ロールバック計画の管理ルートです。",
+          "代表機1台から始めて24時間観測し、明確なゲートを通して 1 → 10 → 100 → 全体へ進みます。収益性の予測ではありません。",
+          "続きは https://roiasic.com/enterprise/"
+        ],
+        "ko": [
+          "ROI ASIC은 단계적 플릿 배포, 기준선 관찰과 롤백 계획을 위한 자체 경로입니다.",
+          "대표 장치 한 대로 시작해 24시간 관찰하고 명확한 게이트를 통해 1 → 10 → 100 → 전체 플릿으로 확장합니다. 수익성 예측이 아닙니다.",
+          "계속: https://roiasic.com/enterprise/"
+        ]
+      }
+    }
+  }
+}

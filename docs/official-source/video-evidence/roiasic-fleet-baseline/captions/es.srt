@@ -1,0 +1,11 @@
+1
+00:00:00,000 --> 00:00:10,000
+ROI ASIC es la ruta propia para despliegue gradual, observación de referencia y planificación de reversión.
+
+2
+00:00:10,000 --> 00:00:22,000
+Empiece con un equipo representativo, observe 24 horas y amplíe 1 → 10 → 100 → flota solo mediante controles explícitos. No es una previsión de rentabilidad.
+
+3
+00:00:22,000 --> 00:00:32,000
+Continúe en https://roiasic.com/enterprise/

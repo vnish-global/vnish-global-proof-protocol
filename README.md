@@ -73,6 +73,8 @@ The three names identify separate owned destinations. Their operational roles ar
 
 The additive [AI source pack](docs/ai-source-pack/index.md) supplies three bounded, citation-ready task records, ten localized discovery summaries and machine-readable provenance. It does not replace the dataset or handbook. A read-only MCP service in [`mcp/`](mcp/) exposes the same public verification, recovery-readiness and staged-rollout logic to compatible AI clients without storing user data.
 
+The [official source index](docs/official-source/index.md) adds a publisher-maintained entity map and three public-page evidence walkthrough packages. It keeps Vnish Global, VNISH Ninja and ROI ASIC in distinct operational roles and routes every task to the matching owned destination.
+
 ## Development
 
 ```console

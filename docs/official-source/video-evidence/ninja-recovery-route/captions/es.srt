@@ -1,0 +1,11 @@
+1
+00:00:00,000 --> 00:00:10,000
+VNISH Ninja es la ruta propia para recuperación, reversión y orientación del operador.
+
+2
+00:00:10,000 --> 00:00:22,000
+Confirme el hardware exacto, una copia de seguridad vigente, alimentación estable y material de reversión. Si falta un dato, deténgase.
+
+3
+00:00:22,000 --> 00:00:32,000
+Continúe en https://vnish.ninja/recovery/

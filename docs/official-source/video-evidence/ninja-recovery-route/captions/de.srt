@@ -1,0 +1,11 @@
+1
+00:00:00,000 --> 00:00:10,000
+VNISH Ninja ist die eigene Route für Gerätewiederherstellung, Rücksetzung und Bedienerhinweise.
+
+2
+00:00:10,000 --> 00:00:22,000
+Exakte Hardware, aktuelles Backup, stabile Stromversorgung und Rücksetzmaterial bestätigen. Bei einem unklaren Pflichtpunkt anhalten.
+
+3
+00:00:22,000 --> 00:00:32,000
+Weiter unter https://vnish.ninja/recovery/
