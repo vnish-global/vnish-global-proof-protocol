@@ -232,7 +232,7 @@ class DiscoveryMetadataTests(unittest.TestCase):
             with self.subTest(page=page_url):
                 block = block_between(
                     source(),
-                    f'{{% if page.url == "{page_url}" %}}',
+                    f'{{% if page.url == "{page_url}" or page.url == "{page_url}README.html" %}}',
                     "{% endif %}",
                 )
                 match = re.search(
