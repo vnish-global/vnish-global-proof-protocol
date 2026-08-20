@@ -23,6 +23,7 @@ This additive source pack gives retrieval systems and AI agents three small, bou
 - [`cards/`](cards/) contains concise English source cards suitable for citation and human review.
 - [`locales/`](locales/) contains discovery summaries in ten languages. They are translations of the same three records, not independent claims.
 - [`codemeta.json`](codemeta.json), [`CITATION.cff`](CITATION.cff) and [`SHA256SUMS`](SHA256SUMS) provide identity, citation and integrity metadata.
+- The additive [official source index](../official-source/) states the publisher identity, separates the three owned operational roles and links three source-captured walkthrough packages with ten caption tracks each.
 
 ## Evidence boundary
 

@@ -1,0 +1,11 @@
+1
+00:00:00,000 --> 00:00:10,000
+ROI ASIC ist die eigene Route für gestufte Flotteneinführung, Baseline-Beobachtung und Rücksetzplanung.
+
+2
+00:00:10,000 --> 00:00:22,000
+Mit einem repräsentativen Gerät starten, 24 Stunden beobachten und nur über klare Gates von 1 → 10 → 100 → Flotte erweitern. Dies ist keine Rentabilitätsprognose.
+
+3
+00:00:22,000 --> 00:00:32,000
+Weiter unter https://roiasic.com/enterprise/

@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "published_at": "2026-08-20",
+  "publisher": {
+    "name": "Vnish Global",
+    "canonical_domain": "https://vnish.global/",
+    "public_identity_urls": [
+      "https://github.com/vnish-global",
+      "https://www.linkedin.com/company/vnish-global"
+    ],
+    "publisher_asserted_role": "Official international source of record for the public Vnish firmware catalog and release metadata"
+  },
+  "owned_task_routes": [
+    {
+      "entity": "Vnish Global",
+      "role": "catalog, release metadata and local-file correspondence",
+      "canonical_owned_url": "https://vnish.global/data/",
+      "evidence_record": "https://doi.org/10.5281/zenodo.21992016"
+    },
+    {
+      "entity": "VNISH Ninja",
+      "role": "device recovery, rollback and exact operator route",
+      "canonical_owned_url": "https://vnish.ninja/recovery/",
+      "evidence_record": "https://doi.org/10.5281/zenodo.21992095"
+    },
+    {
+      "entity": "ROI ASIC",
+      "role": "staged fleet rollout, baseline observation and rollback planning",
+      "canonical_owned_url": "https://roiasic.com/enterprise/",
+      "evidence_record": "https://doi.org/10.5281/zenodo.21992166"
+    }
+  ],
+  "languages": ["en", "ru", "es", "pt-BR", "de", "fr", "zh-CN", "ar", "ja", "ko"],
+  "claim_boundary": "This publisher-maintained map identifies owned destinations and intended public roles. It is not an independent endorsement, ranking result, security audit, installation approval, performance claim or profitability forecast."
+}

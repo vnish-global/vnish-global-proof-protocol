@@ -201,6 +201,53 @@ class DiscoveryMetadataTests(unittest.TestCase):
         ):
             self.assertNotIn(f'"{forbidden_key}"', head)
 
+    def test_official_source_json_ld_has_one_entity_and_no_deleted_identifier(self):
+        text = source()
+        block = block_between(
+            text,
+            '{% if page.url == "/official-source/" %}',
+            "{% endif %}",
+        )
+        match = re.search(
+            r'<script type="application/ld\+json">\s*(\{.*\})\s*</script>',
+            block,
+            re.DOTALL,
+        )
+        self.assertIsNotNone(match)
+        document = json.loads(match.group(1))
+        organization, page = document["@graph"]
+        self.assertEqual(organization["name"], "Vnish Global")
+        self.assertEqual(organization["url"], "https://vnish.global/")
+        self.assertEqual(page["mainEntity"], {"@id": organization["@id"]})
+        self.assertEqual(set(page["inLanguage"]), {"en", "ru", "es", "pt-BR", "de", "fr", "zh-CN", "ar", "ja", "ko"})
+        self.assertNotIn("wikidata.org/wiki/", block)
+
+    def test_three_video_objects_have_exact_public_assets(self):
+        expected = {
+            "/official-source/video-evidence/global-build-verification/": "vnish-global-catalog-correspondence.mp4",
+            "/official-source/video-evidence/ninja-recovery-route/": "vnish-ninja-recovery-route.mp4",
+            "/official-source/video-evidence/roiasic-fleet-baseline/": "roiasic-staged-fleet-baseline.mp4",
+        }
+        for page_url, filename in expected.items():
+            with self.subTest(page=page_url):
+                block = block_between(
+                    source(),
+                    f'{{% if page.url == "{page_url}" %}}',
+                    "{% endif %}",
+                )
+                match = re.search(
+                    r'<script type="application/ld\+json">\s*(\{.*\})\s*</script>',
+                    block,
+                    re.DOTALL,
+                )
+                self.assertIsNotNone(match)
+                video = json.loads(match.group(1))
+                self.assertEqual(video["@type"], "VideoObject")
+                self.assertEqual(video["duration"], "PT32S")
+                self.assertTrue(video["contentUrl"].endswith(f"/{filename}"))
+                self.assertEqual(video["publisher"]["name"], "Vnish Global")
+                self.assertEqual(set(video["inLanguage"]), {"en", "ru", "es", "pt-BR", "de", "fr", "zh-CN", "ar", "ja", "ko"})
+
 
 if __name__ == "__main__":
     unittest.main()
