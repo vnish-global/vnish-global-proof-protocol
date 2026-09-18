@@ -1,3 +1,17 @@
+## Deployment update: 18 September 2026
+
+The API reference pages and example archive are now published:
+
+- [English reference](https://vnish.global/academy/developers/miner-api-1-3-5/)
+- [Русский справочник](https://vnish.global/ru/academy/developers/miner-api-1-3-5/)
+- [Download the example ZIP](https://vnish.global/academy/developers/miner-api-1-3-5/vnish-global-api-read-examples-1.0.0.zip)
+
+Public checks on 18 September 2026 returned HTTP 200 for all three files. All 3 of 3 matched the prepared release by SHA-256 and byte count, and the ZIP integrity check passed. This confirms publication, not testing on physical miners.
+
+**The original pre-deployment snapshot is preserved unchanged below. Its planned-publication wording records the earlier state.**
+
+---
+
 # VNISH GLOBAL: four read-only miner API examples
 
 **Publication status: source package prepared for review. The planned VNISH GLOBAL reference pages below are NOT YET DEPLOYED.**
