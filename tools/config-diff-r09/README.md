@@ -1,3 +1,18 @@
+## Deployment update: 18 September 2026
+
+VNISH Ninja Config Diff is now published:
+
+- [English tool](https://vnish.ninja/academy/tools/config-diff/)
+- [Русская версия](https://vnish.ninja/ru/academy/tools/config-diff/)
+
+All 8 public files returned HTTP 200 and matched the prepared release by SHA-256 and byte count. Browser checks produced the expected 8 differences with the built-in example and with the example pair selected from local files.
+
+The JSON report download was verified at 12:00:32 UTC on 18 September 2026: 2,479 bytes, SHA-256 `52dcfa87092bfecdf428d4bd24408bdab7384597db73a19e768c99d3e1ea9518`. This checksum identifies the tested report. These checks used educational examples and did not involve a miner.
+
+**The original pre-deployment snapshot is preserved unchanged below. Its planned-publication wording records the earlier state.**
+
+---
+
 # VNISH Ninja Config Diff 1.0.0
 
 **Deployment status: NOT YET DEPLOYED.** This directory contains the source candidate and synthetic tests. The planned website addresses below do not establish a live deployment or completed browser acceptance.
