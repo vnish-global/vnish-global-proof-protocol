@@ -1,0 +1,13 @@
+{
+  "fixture_notice": "Manually written educational fragment. Not a device response or performance measurement. Only selected fields are illustrated.",
+  "endpoint": "status",
+  "payload": {
+    "miner_state": "stopped",
+    "miner_state_time": 0,
+    "throttled": 100,
+    "find_miner": false,
+    "unlocked": false,
+    "restart_required": false,
+    "reboot_required": false
+  }
+}

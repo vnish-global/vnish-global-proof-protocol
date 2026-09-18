@@ -1,0 +1,7 @@
+{
+  "fixture_notice": "Manually written educational fragment. Not a device response or performance measurement. Only selected fields are illustrated.",
+  "endpoint": "summary",
+  "payload": {
+    "miner": null
+  }
+}

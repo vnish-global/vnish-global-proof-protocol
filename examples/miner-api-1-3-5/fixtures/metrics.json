@@ -1,0 +1,20 @@
+{
+  "fixture_notice": "Manually written educational fragment. Not a device response or performance measurement. Only selected fields are illustrated.",
+  "endpoint": "metrics",
+  "payload": {
+    "timezone": "GMT",
+    "annotations": [],
+    "metrics": [
+      {
+        "time": 0,
+        "data": {
+          "hashrate": 0.0,
+          "power_consumption": 0,
+          "pcb_max_temp": 0,
+          "chip_max_temp": 0,
+          "fan_duty": 0
+        }
+      }
+    ]
+  }
+}

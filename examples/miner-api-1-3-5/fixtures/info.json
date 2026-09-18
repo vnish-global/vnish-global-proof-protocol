@@ -1,0 +1,13 @@
+{
+  "fixture_notice": "Manually written educational fragment. Not a device response or performance measurement. Only selected fields are illustrated.",
+  "endpoint": "info",
+  "payload": {
+    "fw_name": "vnish",
+    "fw_version": "1.3.5",
+    "platform": "cv",
+    "install_type": "nand",
+    "model": "educational-model",
+    "algorithm": "sha256d",
+    "hr_measure": "GH/s"
+  }
+}
