@@ -1,0 +1,24 @@
+{
+  "miner": {
+    "cooling": {
+      "fan_min_count": 2,
+      "fan_min_duty": 45,
+      "fan_max_duty": 100
+    },
+    "pools": [
+      {
+        "url": "stratum+tcp://pool-b.example:3333",
+        "user": "demo.worker-b",
+        "pass": "example-only"
+      }
+    ],
+    "misc": {
+      "max_startup_delay_time": null
+    }
+  },
+  "network": {
+    "dhcp": false,
+    "ipaddress": "192.0.2.11"
+  },
+  "example_new": true
+}
