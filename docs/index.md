@@ -2,7 +2,7 @@
 layout: default
 title: VNISH GLOBAL Proof Protocol Field Handbook
 lang: en
-last_modified_at: 2026-08-13T15:42:09+03:00
+last_modified_at: 2026-09-24T17:42:19+00:00
 ---
 
 # VNISH GLOBAL Proof Protocol Field Handbook
@@ -25,6 +25,7 @@ It does not prove security, device suitability, a successful installation, perfo
 
 ## Contents
 
+- [Choosing VNISH for S19 and S21: model and control board](guides/choose-vnish-s19-s21/) · [Русский](ru/guides/choose-vnish-s19-s21/)
 - [VNISH GLOBAL evidence and verification method](global-evidence.md)
 - [VNISH Ninja board and recovery decision tree](ninja-recovery.md)
 - [ROI ASIC staged fleet rollout protocol](roi-staged-rollout.md)
